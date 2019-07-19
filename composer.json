@@ -1,0 +1,21 @@
+{
+    "name": "indicio-software/foundation",
+    "description": "A core set of elements, required to play around with the IndicioSoftware modules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Gacek",
+            "email": "contact@dominikgacek.pl"
+        }
+    ],
+    "require": {
+      "jms/serializer": "1.x-dev",
+      "symfony/validator": "3.4.x-dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "Indicio\\Foundation\\": "src/"
+      }
+    }
+}
